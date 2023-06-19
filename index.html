@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1><u>Student Registration Form using Table in HTML</u></h1>
+    <table>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" placeholder="Urmil" maxlength="50" size="35">(Max 50 character alloweed)</td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" placeholder="Pawar" maxlength="50" size="35">(Max 50 character alloweed)</td>
+        </tr>
+        <tr>
+            <td>Email Id</td>
+            <td><input type="email" placeholder="urmilpawar2003@gmail.com" maxlength="50" size="35"></td>
+        </tr>
+        <tr>
+            <td>Mobile Number</td>
+            <td><input type="text" placeholder="93243xxxxx" maxlength="50" size="35">(10 digits alloweed)</td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td class="center">
+                <input type="radio" >
+                <label for="huey">Male</label>
+                <input type="radio" id="dewey" name="drone" value="dewey">
+                <label for="dewey">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td><input type="date" maxlength="50"></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea rows="10" cols="50"></textarea></td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td><input type="text" placeholder="Mumbai" maxlength="50" size="35">(Max 50 character alloweed)</td>
+        </tr>
+        <tr>
+            <td>Pincode</td>
+            <td><input type="number" placeholder="400060" maxlength="50" size="5">(Max 6 Numbers alloweed)</td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td><input type="text" placeholder="Maharashtra" maxlength="50" size="35">(Max 50 character alloweed)</td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td><input type="text" placeholder="India" maxlength="50"></td>
+        </tr>
+        <tr>
+            <td>Hobbies</td>
+            <td>
+                <input type="checkbox"> <label>Drawing</label>
+                <input type="checkbox"> <label>Singing</label>
+                <input type="checkbox"> <label>Dancing</label>
+                <input type="checkbox"> <label>Sketching</label><br>
+                <input type="checkbox"> <label>Others</label><input type="text" placeholder="Reading">(Max 50 Characters Allowed)
+            </td>
+        </tr>
+        <tr>
+            <td>Qualification</td>
+            <td>
+                <input type="checkbox"> <label>High School(10th)</label><br>
+                <input type="checkbox"> <label>Higher School(12th)</label><br>
+                <input type="checkbox"> <label>Graduation(Bachelors)</label><br>
+                <input type="checkbox"> <label> Post Graduation(Masters)</label><br>
+                <input type="checkbox"> <label>Phd</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Courses Applied For</td>
+            <td>
+                <input type="radio"> <label>BCA(Bachelor of Computer Applications)</label><br>
+                <input type="radio"> <label>B.Com(Bachelor of Commerce)</label><br>
+                <input type="radio"> <label>B.Sc(Bachelor of Science)</label><br>
+                <input type="radio"> <label> BA(Bachelor of Arts)</label><br>
+                <input type="radio"> <label>MCA(Master of Computer Applications)</label><br>
+                <input type="radio"> <label> M.Sc(Master of Science)</label><br>
+                <input type="radio"> <label> MA(Master of Arts)</label><br>
+            </td>
+        </tr>
+        <tr >
+            <td colspan="2" align="center">
+                <input type="button" value="Submit">
+                <input type="button" value="Reset">
+            </td>
+        </tr>
+
+    </table>
+    
+</body>
+</html>

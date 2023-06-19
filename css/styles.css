@@ -1,0 +1,43 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+ 
+ }
+ h1{
+    color:#0000FF;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+table{
+    background-color:#159895;
+    border:5px dashed black;
+    width:50%;
+    margin-left: 370px;
+}
+
+td{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+input[type=text],input[type=number],input[type=email]{
+    height:25px;
+}
+input[type=number]{
+    width: 270px;
+}
+label{
+    height:25px;
+}
+.center{
+    display:flex;
+    align-items: center;
+    
+}
+input[type=button]{
+    width: 15%;    
+    margin: 10px 0;
+    padding:10px;
+  }
